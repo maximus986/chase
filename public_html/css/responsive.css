@@ -1,0 +1,471 @@
+@media (min-width: 576px) {
+  .lead {
+    padding: 200px 0 200px;
+  }
+
+  .lead div > a {
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 17px;
+      }    
+
+    .main-header .btn {
+        display: inline-block;
+      }
+
+      .main-header .navbar-nav {
+          margin-right: 20px;
+          background: transparent;
+      }
+
+      .navbar-light .navbar-nav .nav-link {
+        color: #777;
+        font-size: 1rem;
+        margin: 10px;
+        padding: 12px 0 10px;
+      }
+
+      .navbar-light .navbar-nav .nav-item:first-of-type .nav-link {
+        margin-left: 0;
+      }
+      
+      .navbar-light .navbar-nav .show > .nav-link, 
+      .navbar-light .navbar-nav .active > .nav-link, 
+      .navbar-light .navbar-nav .nav-link.show, 
+      .navbar-light .navbar-nav .nav-link.active {
+        background: transparent;
+        color: #777;
+        border-bottom: 2px solid #5dae87;
+      }
+
+      .hvr-underline-from-center {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hvr-underline-from-center:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 51%;
+        right: 51%;
+        bottom: 0;
+        background: #5dae87;
+        height: 2px;
+        -webkit-transition-property: left, right;
+        transition-property: left, right;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+      }
+
+      .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+        left: 0;
+        right: 0;
+      }
+
+      .hamburger {
+        display: none;
+      }
+
+      .lead {
+        padding: 250px 0 250px;
+      }
+
+      .lead h1 {
+        font-size: 6.35rem;
+        margin-bottom: 33px;
+      }
+
+      .chase,
+      .services,
+      .ideas,
+      .features,
+      .talk,
+      .team,
+      .portfolio,
+      .price,
+      .continue {
+        padding: 90px 0 90px;
+      }
+
+      .title {
+        font-size: 3.2rem;
+        margin-bottom: 28px;
+      }
+      
+      .subtitle {
+        font-size: 1rem;
+      }
+
+      .chase h6.subtitle,
+      .services h6.subtitle,
+      .talk h6.subtitle,
+      .portfolio h6.subtitle,
+      .subscribe h6.subtitle,
+      .price h6.subtitle,
+      .continue h6.subtitle {
+        margin-bottom: 40px;
+      }
+
+      .chase .iframe-container {
+        margin: 0 auto 40px;
+        width: 75%;
+      }
+
+      
+      .ideas article {
+        margin-bottom: 0;
+      }
+
+      .ideas aside {
+        text-align: left;
+      }
+
+      .features .features-item {
+        padding: 20px 40px 20px 20px;
+        border: none;
+        box-shadow: none;
+        margin-bottom: 0;
+      }
+
+      .features .row .col-md-6:nth-of-type(2n) {
+        border-left: 1px solid #fff;
+      }
+
+      .features .row .col-md-6:nth-of-type(3n) {
+        border-top: 1px solid #fff;
+      }
+
+      .features .row .col-md-6:nth-of-type(4n) {
+        border-top: 1px solid #fff;
+        border-left: 1px solid #fff;
+      }
+
+      .features .row .col-md-6 {
+        padding: 0;
+      }
+
+      .features .features-item h6 {
+       height: 3rem;
+       overflow: hidden;
+      }
+
+      .features .features-item .features-item-icon {
+        margin-bottom: 0;
+      }
+
+      .features .features-item .features-item-content,
+      .talk .talk-item {
+        text-align: left;
+      }
+
+      .team .team-item {
+        margin-bottom: 0;
+      }
+
+      .team .team-item figure {
+        width: 180px;
+        height: 180px;
+      }
+      
+      .price .price-item {
+        padding: 30px 0;
+      }
+
+      .main-footer .footer-nav ul {
+        justify-content: flex-start;
+      }
+
+      .main-footer .footer-nav h6 {
+        text-align: left;
+      }
+
+      .main-footer .row .col-12 {
+        margin-bottom: 0;
+      }
+
+      .main-footer .footer-nav li a {
+        padding: 0 14px;
+      }
+
+      .main-footer .footer-nav li:first-of-type a {
+        padding-left: 0;
+      }
+
+      .main-footer .footer-nav li a:hover {
+        color: #5dae87;
+      }
+
+      .main-footer .social a:hover {
+        background: #5dae87;
+      }
+      
+      
+}
+
+
+@media (min-width: 992px) {
+    .main-header {
+        padding: 30px 0 30px;
+      }
+
+    .navbar-nav {
+      margin-right: 33px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+      margin: 16px;
+    }
+
+    .lead {
+      padding: 300px 0 300px;
+      background-attachment: fixed;
+    }
+
+    .lead h5 {
+      font-size: 1.17rem;
+      color: #777;
+      margin-bottom: 77px;
+    }
+
+    .chase h6.subtitle,
+    .services h6.subtitle,
+    .portfolio h6.subtitle,
+    .subscribe h6.subtitle,
+    .price h6.subtitle,
+    .continue h6.subtitle {
+      margin-bottom: 70px;
+    }
+
+    .chase .iframe-container {
+      margin: 0 auto 70px;
+    }
+
+    .services,
+    .ideas,
+    .features,
+    .talk,
+    .team,
+    .portfolio,
+    .subscribe,
+    .price,
+    .continue {
+      padding: 120px 0 160px;
+    }
+
+    .services .services-item {
+      box-shadow: none;
+      padding: 47px 60px 64px;
+      transition: 0.3s ease;
+    }
+    
+    .services .services-item:hover {
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    }
+
+    .services .services-item .services-item-title {
+      height: 3rem;
+      overflow: hidden;
+    }
+
+    .services .services-item a {
+      color: #bbb;
+    }
+    .services .services-item:hover a {
+      color: #5dae87;
+    }
+
+    .ideas aside p:first-of-type {
+      margin-bottom: 40px;
+    }
+
+    .features .features-item {
+      padding: 50px 30px 38px 23px;
+    }
+    
+    .features .features-item h6 {
+      height: auto;
+      overflow: visible;
+     }
+
+     .talk h6.subtitle {
+       margin-bottom: 54px;
+     }
+
+     .team .team-item {
+      box-shadow: none;
+      margin: 0;
+      transition: 0.3s ease;
+    }
+
+     .team .team-item:hover {
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    }
+    
+    .team figure {
+      width: 220px;
+      height: 220px;
+    }
+    
+    .team figure img {
+      filter: grayscale(100%);
+      transition: 0.3s ease;
+    }
+    
+    
+    .team .team-item:hover figure img {
+      filter: none;
+    }
+    
+    .social .fa {
+      color: #fff;
+      background: #777;
+      transition: 0.3s ease;
+    }
+    
+    .team .social a:hover {
+      background: #5dae87;
+    }
+
+    .team h6.subtitle {
+      margin-bottom: 225px;
+    }
+
+    .portfolio .portfolio-item .hover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.5);
+      visibility: hidden;
+      transition: 0.3s ease;
+    }
+    
+    .portfolio .portfolio-item .hover .fa {
+      background: transparent;
+      transition: 0.3s ease;
+    }
+
+    .portfolio .portfolio-item .hover .fa:hover {
+      background: rgba(93, 174, 135,0.6);
+    }
+    
+    .portfolio .portfolio-item figure:hover .hover {
+      visibility: visible;
+    }
+
+    .subscribe .subscribe-form {
+      width: 85%;
+      margin: 0 auto;
+    }
+    .subscribe .subscribe-form .form-group {
+      margin-bottom: 0;
+    }
+
+    .subscribe .subscribe-form .form-control {
+      margin: 0;
+    }
+
+
+    .price .price-item {
+      padding: 69px 40px 73px;
+      margin: 0;
+      box-shadow: none;
+      transition: 0.3s ease;
+    }
+    
+    .price .price-item:hover {
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    }
+
+    .price .price-item .btn:hover {
+      background-color: #5dae87;
+      color: #fff;
+    }
+
+}
+
+@media (min-width: 1200px) {
+  .lead {
+    padding: 436px 0 483px;
+  }
+
+  .chase {
+    padding: 171px 0 120px;
+  }
+
+  .services {
+    padding: 148px 0 207px;
+  }
+
+  .services h6.subtitle,
+  .services h6.subtitle,
+  .portfolio h6.subtitle,
+  .price h6.subtitle,
+  .continue h6.subtitle {
+    margin-bottom: 117px;
+  }
+
+  .services .services-item .services-item-title {
+    height: auto;
+    overflow: visible;
+  }
+
+  .ideas {
+    padding: 135px 0 123px;
+  }
+
+  .features {
+    padding: 115px 0;
+  }
+
+  .features .features-item {
+    padding: 83px 55px 75px 23px;
+  }
+
+  .talk {
+    padding: 147px 0 149px;
+  }
+
+  .talk .talk-item .talk-item-description {
+    margin-bottom: 45px;
+  }
+  
+  .team {
+    padding: 147px 0 200px;
+  }
+
+  .portfolio {
+    padding: 148px 0 185px;
+  }
+
+  .subscribe {
+    padding: 147px 0 142px;
+  }
+
+  .price {
+    padding: 148px 0 207px;
+  }
+
+  .price .price-item {
+    padding: 69px 70px 73px;
+  }
+
+  .continue {
+    padding: 151px 0 124px;
+  }
+  
+
+}
